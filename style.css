@@ -1,0 +1,176 @@
+body{
+    width: 95%;
+    margin: auto;
+    font-family: sans-serif;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .right a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.8vh;
+    margin: 0.4vh;
+    color: black;
+}
+#about {
+    display : flex;
+    align-items: center;
+}
+#about .left {
+    width: 50%;
+    
+}
+#about .right {
+    width: 50%;
+    text-align: right;
+}
+#about .right img {
+    width: 90%;
+    text-align: right;
+    border-radius: 50%;
+    border: 5px solid rgb(12, 219, 140);
+}
+#about .left a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.left h1 {
+    font-size: 5.5vw;
+}
+.left p {
+    font-size: 2.9vw;
+}
+
+.left button {
+    border-radius: 5px;
+    background-color: mediumturquoise;
+    border-style: hidden;
+    color: white;
+    font-size: 1.4vw;
+    margin-right: 3%;
+    padding: 2%;
+    width: 12vw;
+}
+#Details {
+    Display: flex;
+    
+    gap: 3%;
+    
+}
+.sub-details {
+    text-align: justify;
+}
+#SkillTool {
+    display: flex;
+    justify-content: space-between;
+}
+#SkillTool img {
+    width: 5%;
+}
+.left1 h1 {
+    font-size: 5.5vw;
+}
+.left1 p {
+    font-size: 2.9vw;
+}
+
+#Project-Details .left1 p {
+    font-size: 1vw;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.left1 button{
+    border-radius: 5px;
+    background-color: mediumturquoise;
+    border-style: hidden;
+    color: white;
+    font-size: 1.3vw;
+    margin-right: 3%;
+    padding: 1%;
+    width: 12vw;
+    margin-bottom: 2%;
+}
+#Project-Details{
+    Display: flex;
+    gap: 3%;
+    align-items: center;
+}
+.right1 img{
+    width: 45vw;
+    padding-bottom: 3vw;
+    border-radius: 5%;}​
+.right1{
+     width: 50%;
+}
+.left1 {
+     width: 100%;
+     text-align: justify;
+}
+.left1 p{
+     margin-top: 1vw;
+     margin-bottom: 1vw; 
+}
+#contacts{
+    text-align: center;
+}
+#contacts img{
+    width: 8vh;
+}
+
+
+@media screen and (max-width:650px) {
+  #about{
+    flex-flow: column-reverse;
+  }
+    #Details{
+        flex-flow: column;
+        text-align: justify;
+    }
+    h2 {
+        font-size: 4vw;
+
+    }
+    #SkillTool {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    #SkillTool img{
+        width: 10vw;
+    }
+    #Project-Details .left1 p{
+        font-size: 2.5vw;
+    }
+    #contacts h1{
+        font-size: 5vw
+    }
+    #contacts h3{
+        font-size: 3vw;
+    }
+    #contacts img{
+        width: 7vw;
+    }
+    .left1 h4{ font-size: 3vw;}
+    .p{
+        font-size: 3vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
